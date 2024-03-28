@@ -1,10 +1,11 @@
-# Expressões condicionais 01 (|| e &&)
+# Expressões condicionais 02 (|| e &&)
 
 nome = ARGV.first
 senha = ARGV[1]
 
 # || = or (ou)
 # && = and (e)
+
 
 autorizado = (nome == 'guilherme' || nome == 'pedro') && senha == 'senha'
 
@@ -13,3 +14,5 @@ if autorizado
 else
     puts 'nao autorizado'
 end
+
+
